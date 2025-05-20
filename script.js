@@ -10,7 +10,7 @@ document.getElementById('devicesList').innerHTML = `
 
 //Navigation bar
 document.getElementById('navbarid').innerHTML = `
-<div class="navbar">
+<div class="navbar2">
         <ul>
             <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="informacje.html">Informacje</a></li>
@@ -18,6 +18,8 @@ document.getElementById('navbarid').innerHTML = `
             <li><a href="projects.html">Projekty</a></li>
             <li><a href="tutorials.html">Instrukcje</a></li>
         </ul>
+    </div>
+    <div class="navbar1">
         <a href="index.html"><img src="CRomsiconorange.png" alt="cus-rom icon"></a>
         <h2><a href="index.html">cus-rom.com</a></h2>
         <p>Baza customowych systemów do telefonów</p>

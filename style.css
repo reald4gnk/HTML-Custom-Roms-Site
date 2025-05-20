@@ -11,9 +11,9 @@ body {
 }
 
 
-.navbar {
+.navbar1 {
     background-color: rgb(53, 53, 53);
-    width: 100%;
+    width: 50%;
     height: 20%;
     margin-bottom: 0%;
     color: white;
@@ -23,6 +23,15 @@ body {
         text-decoration: none;
         color: orange;
     }
+}
+.navbar2 {
+    width: 50%;
+    float: right;
+    height: 20%;
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     ul {
         list-style-type: none;
     }
@@ -43,11 +52,12 @@ body {
         color: white;
     }
 }
+
 #active {
     color: orange;
 }
 
-.navbar img {
+.navbar1 img {
     display: inline;
     float: left;
     height: 50px;
@@ -198,11 +208,23 @@ body {
 
 
 @media only screen and (max-width:750px) {
-    .navbar {
+    .navbar1 {
         height: 10%;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .navbar2 {
+        height: 10%;
+        width: 100%;
         ul a {
-            padding: 2px;
+            padding: 2px 5px;
         }
+    }
+
+    .mainblock {
+        width: 100%;
+        
     }
 
         .devices {
@@ -219,6 +241,16 @@ body {
                 height: 50vh;
             }
         }
+
+        .text {
+            margin-left: 0px;
+            margin-bottom: 20%;
+            padding: 0px;
+        }
+        
+
+
+
 
     
 }
