@@ -1,0 +1,197 @@
+* {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body {
+    background-color: #0d1117;
+    width: 100%;
+    margin-left: 0;
+    font-size: 18px;
+}
+
+
+.navbar {
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 20%;
+    margin-bottom: 0%;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    a {
+        text-decoration: none;
+        color: orange;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+        float: right;
+    }
+    ul a {
+        padding: 16px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(53, 53, 53);
+    }
+    ul a:hover {
+        background-color: #555;
+        color: white;
+    }
+}
+#active {
+    color: orange;
+}
+
+.navbar img {
+    display: inline;
+    float: left;
+    height: 50px;
+    width: 52px;
+    display: flex;
+    margin-right: 15px;
+}
+
+.mainblock {
+    color: white;
+    width: 60%;
+    float: left;
+}
+
+.text {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.mainblock a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainblock h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+}
+
+.devices {
+    float: left;
+    width: 20%;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li a {
+        display: block;
+        color: #ffffff;
+        padding: 10px 16px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+}
+
+.osinstall {
+    margin-left: 50px;
+    a {
+        text-decoration:underline;
+    }
+}
+
+.systembutton {
+    background-color: #555;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.systems {
+    float: right;
+    width: 20%;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        display: block;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li a {
+        display: block;
+        color: #ffffff;
+        padding: 10px 16px;
+        text-decoration: none;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    background-color: #555;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.e404 {
+    color: red;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.e404text {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.phoneimage {
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 50px;
+    img {
+        height: 500px;
+        width: auto;
+    }
+}
