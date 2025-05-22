@@ -70,6 +70,10 @@ body {
     color: white;
     width: 60%;
     float: left;
+    margin-bottom: 5%;
+     h2 {
+        color: aquamarine;
+     }
 }
 
 .text {
