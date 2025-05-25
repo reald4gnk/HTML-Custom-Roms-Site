@@ -181,7 +181,7 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -189,7 +189,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -203,7 +203,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     
     .mainblock {
         width: 100%;

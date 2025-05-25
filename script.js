@@ -11,6 +11,7 @@ document.getElementById('devicesList').innerHTML = `
 //Navigation bar
 document.getElementById('navbarid').innerHTML = `
 <div class="topnav" id="myTopnav">
+            <a href="tutorials.html">Strona główna</a>
             <a href="tutorials.html">Instrukcje</a>
             <a href="projects.html">Projekty</a>
             <a href="informacje.html">Informacje</a>
