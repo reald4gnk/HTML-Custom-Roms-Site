@@ -10,20 +10,15 @@ document.getElementById('devicesList').innerHTML = `
 
 //Navigation bar
 document.getElementById('navbarid').innerHTML = `
-<div class="navbar2">
-        <ul>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="informacje.html">Informacje</a></li>
-            <li><a href="changelog.html">Ostatnie zmiany</a></li>
-            <li><a href="projects.html">Projekty</a></li>
-            <li><a href="tutorials.html">Instrukcje</a></li>
-        </ul>
+<div class="topnav" id="myTopnav">
+            <a href="tutorials.html">Instrukcje</a>
+            <a href="projects.html">Projekty</a>
+            <a href="informacje.html">Informacje</a>
+            <a href="changelog.html">Ostatnie zmiany</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="menu.png" width="30px"</a>
     </div>
-    <div class="navbar1">
-        <a href="index.html"><img src="CRomsiconorange.png" alt="cus-rom icon"></a>
-        <h2><a href="index.html">cus-rom.com</a></h2>
-        <p>Baza customowych systemów do telefonów</p>
-    </div>
+
 `
 
 //Stopka
@@ -33,3 +28,12 @@ document.getElementById('footerid').innerHTML = `
     <p>Strona powstała w celach edukacyjnych.</p>
 </div>
 `
+//Responsywny navbar
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
