@@ -5,6 +5,7 @@ document.getElementById('devicesList').innerHTML = `
 <ul>
     <li><a href="rn8pro.html">Redmi Note 8 Pro (begonia)</a></li>
     <li><a href="klte.html">Samsung S5 (klte)</a></li>
+    <li><a href="rn10pro(sweet).html">Redmi Note 10 Pro (Sweet)</a></li>
 </ul>
 </div>`
 

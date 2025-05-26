@@ -63,6 +63,12 @@ body {
     margin-top: 20px;
     color: orange;
 }
+#downloadlink {
+    color: red;
+}
+#downloadlink:hover {
+    color: gray;
+}
 
 .devices {
     float: left;
@@ -231,3 +237,4 @@ body {
             padding: 0px;
         }
 }
+
