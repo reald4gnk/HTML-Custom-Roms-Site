@@ -11,13 +11,29 @@ body {
     font-size: 18px;
 }
 
+.header {
+    padding: 2%;
+    background-color: black;
+    h1 {
+        font-size: 300%;
+        text-align: center;
+        margin: auto;
+        color: orange;
+    }
+}
+
 
 .topnav {
+  position: sticky;
+  top: 0;
   overflow: hidden;
   background-color: #333;
+
 }
 
 .topnav a {
+position: sticky;
+top: 0;
   float: left;
   display: block;
   color: #f2f2f2;
